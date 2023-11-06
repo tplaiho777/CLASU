@@ -5,4 +5,7 @@ The CLASU NURBS surfacing macro tool for Rhinoceros 7.0 and 8.0 is a concise cod
 The concept involves combining the control points of the NURBS surface between the patches and creating a linear NURBS curve between these control points. This NURBS curve should then be extrapolated and linearly extended to a length required to manually determine the missing tangents between the NURBS patches. You can refer to the images, which clarify this process significantly.
 
 This tool enables the creation of full-scale Class-A NURBS surfaces, for instance, for an entire car. The fundamental method of finding continuity in this manual manner is surprisingly simple. The tool is available for free use under the MIT license.
+
+
+
 ![CLASU IMAGE](https://github.com/tplaiho777/CLASU/assets/81896612/83521456-a774-4d5c-aef5-8a6f31ed49dd)
