@@ -20,7 +20,7 @@ if end_point is None:
 desired_length = rs.GetReal("Syota haluttu kayran pituus")
 
 # Luo NURBS-kayra suoran pohjalta
-curve = rg.LineCurve(start_point, end_point)
+curve = rg.LineCurve(end_point, start_point)
 
 # Laske alkuperaisen kayran pituus
 curve_length = curve.GetLength()
