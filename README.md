@@ -1,3 +1,6 @@
+Ohessa toistaiseksi vielä suomenkielinen NURBS makro Rhinoceros 7.0 ja 8.0 ohjelmistoon. 
+
+
 # CLASU
 # A class - A  NURBS surfacing tools for Rhinoceros 7.0 and 8.0
 
