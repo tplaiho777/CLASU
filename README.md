@@ -1,4 +1,4 @@
-Ohessa toistaiseksi vielä suomenkielinen NURBS makro Rhinoceros 7.0 ja 8.0 ohjelmistoon. Ohjelma on siirtynyt alpha - asteelta Beta - vaiheeseen. 
+Ohessa toistaiseksi vielä suomenkielinen NURBS makro Rhinoceros 7.0 ja 8.0 ohjelmistoon. Ohjelma on siirtynyt alpha - asteelta Beta - vaiheeseen. (There will be you tube video how to use it. )
 
 The CLASU NURBS surfacing macro tool for Rhinoceros 7.0 and 8.0 is a concise code for Class-A level NURBS surfacing. It is an easy-to-use macro tool for Rhino users to create G1, G2, and G3 level NURBS surface continuity between NURBS surfaces. The tool is currently in a beta level and functions solely as a macro tool. While there is potential for additional functionality, it is already operational, at least for developers' use. Extensive testing is required, but the code is only 50 lines long and can be used for such testing. It is too early to claim that it is a production-ready macro. The code is written in Rhino Python.
 
