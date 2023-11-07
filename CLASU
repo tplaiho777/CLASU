@@ -16,8 +16,14 @@ end_point = rs.GetPoint("Valitse kayran loppupiste")
 if end_point is None:
     exit()
 
-# Kysy kayttajalta haluttu pituus
-desired_length = rs.GetReal("Syota haluttu kayran pituus")
+desired_length = None
+
+# Pyyda kayttajaa syottamaan haluttu pituus kelvollisena lukuina
+while desired_length is None:
+    try:
+        desired_length = rs.GetReal("Syota haluttu kayran pituus")
+    except ValueError:
+        print("Virheellinen syote. Syota kelvollinen luku.")
 
 # Luo NURBS-kayra suoran pohjalta
 curve = rg.LineCurve(end_point, start_point)
@@ -28,7 +34,7 @@ curve_length = curve.GetLength()
 # Laske, kuinka paljon pituutta puuttuu halutusta pituudesta
 extension_length = desired_length - curve_length
 
-# Jatka kayra halutulla pituudella
+# Jatka kayraa halutulla pituudella
 extended_curve = curve.Extend(rg.CurveEnd.Start, extension_length, rg.CurveExtensionStyle.Smooth)
 
 # Tarkista, onnistuiko kayran jatkaminen
@@ -43,3 +49,4 @@ if extended_curve:
     print("Kayra jatkettu halutulla pituudella onnistuneesti")
 else:
     print("Kayran jatkaminen epaonnistui.")
+
