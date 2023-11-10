@@ -6,6 +6,9 @@ The concept involves combining the control points of the NURBS surface between t
 
 This tool enables the creation of full-scale Class-A NURBS surfaces, for instance, for an entire car. The fundamental method of finding continuity in this manual manner is surprisingly simple. The tool is available for free use under the MIT license.
 
+Ohessa suomenkielinen video aiheesta, miten CLASUa käytetään: 
+
+https://www.youtube.com/watch?v=1M1xQi1BPlM
 
 
 ![CLASU IMAGE](https://github.com/tplaiho777/CLASU/assets/81896612/83521456-a774-4d5c-aef5-8a6f31ed49dd)
