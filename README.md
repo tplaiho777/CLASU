@@ -10,5 +10,9 @@ Ohessa suomenkielinen video aiheesta, miten CLASUa käytetään:
 
 https://www.youtube.com/watch?v=1M1xQi1BPlM
 
+..and here is same with rallyenglish by Tommi P. Laiho: 
+
+https://www.youtube.com/watch?v=nsPk34sJNSs
+
 
 ![CLASU IMAGE](https://github.com/tplaiho777/CLASU/assets/81896612/83521456-a774-4d5c-aef5-8a6f31ed49dd)
